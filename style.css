@@ -1,0 +1,154 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-size: 3rem;
+}
+.name{
+    color: rgb(9, 9, 126);
+}
+section{
+    display: flex;
+    padding: 2rem 0 0 0;
+}
+.half-width{
+    width: 40%;
+    padding-left: 5%;
+}
+.first-img{
+    text-align: right;
+}
+.half-width img{
+    width: 60%;
+
+}
+.link-button{
+    text-decoration: none;
+    background-color: rgba(255, 238, 7, 0.835);
+    /* background-image: linear-gradient(blue white); */
+    padding: .3rem 1rem;
+    border-radius: .5rem;
+}
+.bar1{
+    border-left: 3px solid red;
+}
+
+/* my mission */
+.mission-area{
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+.mission-areah2{
+    font-size: 2.7em;
+    text-align: center;
+}
+.my-mission>h2{
+    display: block !important;
+
+}
+.mission-diary{
+    width: 27%;
+    padding: 1rem;
+    border-radius: 1.2rem;
+    display: inline-block;
+    height:25rem ;
+    overflow-x: hidden;
+    margin: 1rem 1.4%;
+    overflow-y: hidden;
+    background-color: rgba(15, 40, 180, 0.219);
+}
+.mission-diary>img{
+    width: 30%;
+}
+.mission-diary>h3{
+    text-align: center;
+    padding-right: 30rem;
+}
+.mission-diary>p{
+    text-align: justify;
+}
+
+
+.link-button{
+    text-decoration: none;
+    background-color: rgba(187, 250, 247, 0.835);
+    padding: .3rem 1rem;
+    border-radius: .5rem;
+}
+
+/* Development without limit */
+.img-doc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0;
+}
+.img-dev{
+    flex: 0 0 30%;
+}
+.img-txt{
+    flex: 0 0 60%;
+}
+.dev-limit>div>img{
+    width: 100%;
+}
+.img-txt>h3{
+    font-size: 2rem;
+    line-height: 1rem;
+}
+
+
+/* global community */
+.img-doc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0;
+}
+.img-dev{
+    flex: 0 0 35%;
+}
+.img-txt{
+    flex: 0 0 58%;
+}
+
+.img-doc>div>img{
+    width: 100%;
+}
+
+.img-txt>h4{
+    font-size: 2em;
+}
+.img-txt>h3{
+    font-size: 2.2em;
+    margin: 1rem 0 2rem;
+}
+.img-txt>p{
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+/* footer */
+footer{
+    height:10rem;
+    background-color: rgb(18, 18, 19);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}
+
+footer>h2{
+    font-size: 2rem;
+}
+.foot{
+    color: salmon;
+}
+footer>p{
+    color: white;
+}
+
+
+
+
+
