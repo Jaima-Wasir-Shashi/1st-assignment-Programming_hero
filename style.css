@@ -127,6 +127,15 @@ section{
     font-size: 1.2em;
     line-height: 1.5;
 }
+
+.comment{
+    height: 10rem ;
+    width: 25rem ;
+    border-radius: 1rem;
+}
+.comment::placeholder{
+    font-size: 1.5rem;
+}
 /* footer */
 footer{
     height:10rem;
